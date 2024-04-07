@@ -40,13 +40,13 @@
    время: 9.36 + 0.19 = 9.55
 
 # Запросы в спарк используя df:
-Query 1 Execution Time: 0.2736837863922119 seconds время не честное так как датасет сохраняется в память?
+Query 1 Execution Time: 0.2736837863922119 seconds
 Query 2 Execution Time: 41.756088733673096 seconds
 Query 3 Execution Time: 45.17482781410217 seconds
 Query 4 Execution Time: 64.34221243858337 seconds
 
 # Запросы в спарк используя ds:
-Query 1 Execution Time: 1.3839216232299805 seconds время не честное так как датасет сохраняется в память?
+Query 1 Execution Time: 1.3839216232299805 seconds 
 Query 2 Execution Time: 58.35791802406311 seconds
 Query 3 Execution Time: 43.32658076286316 seconds
 Query 4 Execution Time: 62.49212718009949 seconds
@@ -58,10 +58,12 @@ Query 2 Execution Time: 62.49861454963684 seconds
 Query 3 Execution Time: 66.35412836074829 seconds                               
 Query 4 Execution Time: 73.69891786575317 seconds   
 
-# количестов символов в дс используя rdd
-Посчиталось их много
+# топ 5 символов в дс используя rdd
+[('e', 5200742704), ('o', 5028270385), ('a', 4966077532), ('i', 4744810189), ('t', 4186305067)]
 
 # использование библиотеки в спарк
 Была жуткая необходимость красивого вывода в логи, поэтому была добавлина библионтека art
+![Screenshot 2024-04-07 at 20.13.13.png](images%2FScreenshot%202024-04-07%20at%2020.13.13.png)
 
-![Screenshot 2024-04-07 at 18.11.19.png](images%2FScreenshot%202024-04-07%20at%2018.11.19.png)
+ссылка на архив: https://dropmefiles.com/3HNl0
+

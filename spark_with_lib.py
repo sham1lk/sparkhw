@@ -23,8 +23,9 @@ char_rdd = rdd.flatMap(lambda line: list(line))
 char_rdd = char_rdd.filter(lambda c: c.isalpha())
 char_count_rdd = char_rdd.map(lambda c: (c, 1))
 char_count_total_rdd = char_count_rdd.reduceByKey(lambda a, b: a + b)
+top_5_chars = char_count_total_rdd.sortBy(lambda x: x[1], ascending=False).take(5)
 
 tprint("Total occurrences of each character:")
-tprint(char_count_total_rdd.collect())
+print(top_5_chars)
 
 sc.stop()
