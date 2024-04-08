@@ -40,13 +40,13 @@
    время: 9.36 + 0.19 = 9.55
 
 # Запросы в спарк используя df:
-Query 1 Execution Time: 0.2736837863922119 seconds
+Query 1 Execution Time: 0.2736837863922119 seconds время маленькое из-за линивых вычислений, происходит посик первых 20 выполнений условия, далее вычисления не происходят
 Query 2 Execution Time: 41.756088733673096 seconds
 Query 3 Execution Time: 45.17482781410217 seconds
 Query 4 Execution Time: 64.34221243858337 seconds
 
 # Запросы в спарк используя ds:
-Query 1 Execution Time: 1.3839216232299805 seconds 
+Query 1 Execution Time: 1.3839216232299805 seconds время маленькое из-за линивых вычислений, происходит посик первых 20 выполнений условия, далее вычисления не происходят
 Query 2 Execution Time: 58.35791802406311 seconds
 Query 3 Execution Time: 43.32658076286316 seconds
 Query 4 Execution Time: 62.49212718009949 seconds
